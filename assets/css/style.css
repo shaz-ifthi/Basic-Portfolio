@@ -48,35 +48,24 @@
     border: 1px solid rgb(202, 201, 201);
   }
 
-  h1{
-      color:  #4aaaa5;
-      background-color: rgb(224, 74, 14);
-      padding-left: 100px;
-      padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 30px;
-    float: left;
+h1{
+      color:  #040707;
+      
       }
 
-    p {
-        float: left;
-    }
-
- #main {
+#main {
     background-color: rgb(202, 197, 197);
-    clear: both;
-    overflow: auto;
+    /* clear: both; */
+    /* overflow: auto; */
     /* padding: 20px; */
     /* margin-top: 20px; */
     border: 1px solid rgb(202, 201, 201);
     height: 800px;
-
+    position: relative;
+ 
  }
 
- 
-
- hr {
+hr {
     display: block;
     height: 1px;
     border: 0;
@@ -89,3 +78,71 @@
     overflow: auto;
 }
 
+#bio {
+    background: white;
+    /* position: relative; */
+    /* text-align: center; */
+    /* float: left; */
+     /* width: 20%; */
+    /* padding: 20px; */
+    border: #cccccc;
+
+    height: 300px;
+    width: 300px;
+  /* margin-top: 10px; */
+  /* margin-left: 20px; */
+    padding-top: 100px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+  
+
+}
+img {
+
+}
+
+p {
+    float: left;
+}
+
+#smedia {
+    background: white;
+    border: #cccccc;
+    height: 75px;
+    width: 150px;
+    padding-top: 20px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+  }
+
+h2 {
+    color: black;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+#footer {
+    background-color: darkgrey;
+    text-align: center;
+    height: 50px;
+    /* border-top: #4aaaa5; */
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    border-top-width: 10px;
+}
+
+h3 { 
+    color: black;
+    font-size: 10px;
+    padding-top: 7px;
+    padding-bottom: 20px;
+    border-top: #57c7c1;
+}
