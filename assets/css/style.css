@@ -78,6 +78,7 @@ hr {
     overflow: auto;
 }
 
+
 #bio {
     background: white;
     /* position: relative; */
@@ -87,11 +88,11 @@ hr {
     /* padding: 20px; */
     border: #cccccc;
 
-    height: 300px;
+    height: 400px;
     width: 300px;
   /* margin-top: 10px; */
   /* margin-left: 20px; */
-    padding-top: 100px;
+    padding-top: 30px;
     padding-right: 60px;
     padding-bottom: 100px;
     padding-left: 60px;
@@ -101,19 +102,103 @@ hr {
   
 
 }
-img {
-
+#image {
+    width: 30%;
+    padding-top:25px;
 }
-
-p {
+#biotxt {
+    padding-top:5px;
+    width: 70%;
+}
+.bio_container {
+    margin:0 auto;
+}
+#image,
+#biotxt {
     float: left;
 }
+#biotxt2 {
 
+}
+.connect_container {
+    margin:0 auto;
+}
+#git_image,
+#facebook_image,
+#insta_image {
+    float: left;
+    padding-right: 10px;
+}
+#portfolio{
+    background: white;
+    /* position: relative; */
+    /* text-align: center; */
+    /* float: left; */
+     /* width: 20%; */
+    /* padding: 20px; */
+    border: #cccccc;
+
+    height: 400px;
+    width: 300px;
+  /* margin-top: 10px; */
+  /* margin-left: 20px; */
+    padding-top: 30px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+  
+
+}
+.portfolio_container {
+    margin:0 auto;
+}
+#portfolio_image1,
+#portfolio_image2{
+    float: left;
+     padding-right: 10px;
+}
+
+#portfolio_image3,
+#portfolio_image4{
+
+     float: left; 
+     padding-right: 10px;
+     
+}
+#portfolio_image5{
+ 
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=text1] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 300px;
+    height: 100px;
+    box-sizing: message-box;
+}
+#sbutton {
+    background-color: green;
+    color: white;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    /* border: #cccccc; */
+    /* border: 2px solid #4CAF50; Green */
+}
 #smedia {
     background: white;
     border: #cccccc;
     height: 75px;
-    width: 150px;
+    width: 275px;
     padding-top: 20px;
     padding-right: 60px;
     padding-bottom: 100px;
@@ -145,4 +230,12 @@ h3 {
     padding-top: 7px;
     padding-bottom: 20px;
     border-top: #57c7c1;
+}
+.clearfix {
+    clear: both;
+    overflow: auto;
+}
+.clearfix1 {
+    clear: both;
+    overflow: auto;
 }
