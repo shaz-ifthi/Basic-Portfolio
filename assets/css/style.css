@@ -1,3 +1,6 @@
+/* #content {
+    height: 1000px;
+} */
 
 
 #your-name {
@@ -7,15 +10,17 @@
     float: left;
      /* width: 20%; */
     /* padding: 20px; */
-    border: #cccccc;
-
+    border: #dddddd;
+    color: white;
     height: 25px;
   /* margin-top: 10px; */
   /* margin-left: 20px; */
-    padding-top: 50px;
+    padding-top: 20px;
     padding-right: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     padding-left: 30px;
+    font-family:'Georgia', Times, Times New Roman, serif;
+    
   
 
 }
@@ -23,34 +28,39 @@
 #about-portfolio-contact{
     background: white;
     /* position: absolute; */
-    padding-top: 50px;
+    padding-top: 20px;
     padding-right: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     padding-left: 700px;
     text-align-last: right;
     float: left;
     /* width: 66%; */
     /* margin-bottom: 20px; */
-
     height: 25px;
+    color:#777777; 
   /* margin-top: 10px; */
   /* margin-left: 20px; */
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   
 
 }
 
 #banner {
-    background-color: white;
+    /* background-color: white; */
+    background-color: #ffffff;
     clear: both;
     overflow: auto;
     padding-left: 80px;
     /* margin-top: 20px; */
     border: 1px solid rgb(202, 201, 201);
+    /* height: 70px; */
+
   }
 
 h1{
-      color:  #040707;
-      
+      color: #4aaaa5;
+      font-family: 'Georgia', Times, Times New Roman, serif;
+      font-size: 25px;
       }
 
 #main {
@@ -59,9 +69,12 @@ h1{
     /* overflow: auto; */
     /* padding: 20px; */
     /* margin-top: 20px; */
-    border: 1px solid rgb(202, 201, 201);
+    /* border: 1px solid rgb(202, 201, 201); */
+    /* border: #cccccc; */
+    border:#dddddd;
     height: 800px;
     position: relative;
+    /* width: 650px; */
  
  }
 
@@ -69,10 +82,10 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 2px solid #ccc;
     /* margin: 1em 0; */
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 0px;
+    margin-left: 0px;
     padding: 0;
     clear: both;
     overflow: auto;
@@ -86,10 +99,10 @@ hr {
     /* float: left; */
      /* width: 20%; */
     /* padding: 20px; */
-    border: #cccccc;
-
+    border: #dddddd;
+    
     height: 400px;
-    width: 300px;
+    width: 500px;
   /* margin-top: 10px; */
   /* margin-left: 20px; */
     padding-top: 30px;
@@ -109,6 +122,8 @@ hr {
 #biotxt {
     padding-top:5px;
     width: 70%;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 .bio_container {
     margin:0 auto;
@@ -117,7 +132,9 @@ hr {
 #biotxt {
     float: left;
 }
-#biotxt2 {
+#biotxt1 {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
 .connect_container {
@@ -138,13 +155,13 @@ hr {
     /* padding: 20px; */
     border: #cccccc;
 
-    height: 400px;
-    width: 300px;
+    height: 600px;
+    width: 400px;
   /* margin-top: 10px; */
   /* margin-left: 20px; */
     padding-top: 30px;
     padding-right: 60px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     padding-left: 60px;
     position: absolute;
     top: 50px;
@@ -154,11 +171,14 @@ hr {
 }
 .portfolio_container {
     margin:0 auto;
+    width: 600px;
 }
 #portfolio_image1,
 #portfolio_image2{
     float: left;
      padding-right: 10px;
+     padding-bottom: 20px;
+     padding-top: 20px;
 }
 
 #portfolio_image3,
@@ -166,10 +186,16 @@ hr {
 
      float: left; 
      padding-right: 10px;
-     
+     padding-bottom: 20px;
 }
 #portfolio_image5{
  
+}
+#portfolio_image1 {
+    padding-right: 20px;
+}
+#portfolio_image3 {
+    padding-right: 20px;
 }
 input[type=text] {
     width: 100%;
@@ -181,12 +207,12 @@ input[type=text1] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    width: 300px;
+    width: 500px;
     height: 100px;
     box-sizing: message-box;
 }
 #sbutton {
-    background-color: green;
+    background-color:  #4aaaa5;
     color: white;
     width: 70px;
     height: 20px;
@@ -197,27 +223,30 @@ input[type=text1] {
 #smedia {
     background: white;
     border: #cccccc;
-    height: 75px;
-    width: 275px;
-    padding-top: 20px;
-    padding-right: 60px;
+    height: 50px;
+    width: 200px;
+    padding-top: 10px;
+    padding-right: 5px;
     padding-bottom: 100px;
-    padding-left: 60px;
+    padding-left: 30px;
     position: absolute;
     top: 50px;
-    right: 100px;
+    right: 175px;
+    
   }
 
 h2 {
-    color: black;
+    color: #4aaaa5;
     font-size: 15px;
     padding-top: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    
 }
 
 #footer {
-    background-color: darkgrey;
+    background-color: rgb(104, 101, 101);
     text-align: center;
-    height: 50px;
+    height: 75px;
     /* border-top: #4aaaa5; */
     border-top-style: solid;
     border-color: #4aaaa5;
@@ -225,9 +254,9 @@ h2 {
 }
 
 h3 { 
-    color: black;
+    color: lightgray;
     font-size: 10px;
-    padding-top: 7px;
+    padding-top: 20px;
     padding-bottom: 20px;
     border-top: #57c7c1;
 }
